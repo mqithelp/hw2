@@ -42,6 +42,14 @@ public class Main {
         System.out.println("Frog inc by 4: " + frog);
 
         System.out.println("=====[ Welcome to Task 6 ]=====");
+        var oneBoxerWeight = 78.2;
+        var twoBoxerWeight = 82.7;
+        var totalWeight = oneBoxerWeight + twoBoxerWeight;
+        var defferenceWeight = twoBoxerWeight - oneBoxerWeight;
+        System.out.println("Общая масса двух бойцов: " + totalWeight);
+        System.out.println("Разница в весе двух бойцов : " + defferenceWeight);
+
+        System.out.println("=====[ Welcome to Task 7 ]=====");
 
     }
 }
