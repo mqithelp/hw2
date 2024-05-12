@@ -26,7 +26,7 @@ public class Main {
         System.out.println("=====[ Welcome to Task 4 ]=====");
         var friend = 19;
         System.out.println("Initial variable Friend: " + friend);
-        friend = friend +2;
+        friend = friend + 2;
         System.out.println("Friend increase by 2: " + friend);
         friend = friend / 7;
         System.out.println("Friend divide by 7: " + friend);
@@ -54,6 +54,14 @@ public class Main {
         System.out.println("Остаток от деления: " + remDiv);
 
         System.out.println("=====[ Welcome to Task 8 ]=====");
-
+        var totalWorkTime = 640;
+        var employeeWorkTime = 8;
+        var totalEmployee = totalWorkTime / employeeWorkTime;
+        System.out.println("Всего работников в компании -- " + totalEmployee + " человек");
+        totalEmployee = totalEmployee + 94;
+        employeeWorkTime = totalWorkTime / totalEmployee;
+        System.out.println("Если в компании работает " + totalEmployee +
+                " человек, то всего " + employeeWorkTime + " часов работы может быть" +
+                " поделено между сотрудниками");
     }
 }
