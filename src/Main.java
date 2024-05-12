@@ -30,5 +30,18 @@ public class Main {
         System.out.println("Friend increase by 2: " + friend);
         friend = friend / 7;
         System.out.println("Friend divide by 7: " + friend);
+
+        System.out.println("=====[ Welcome to Task 5 ]=====");
+        var frog = 3.5;
+        System.out.println("Initial variable Frog: " + frog);
+        frog = frog * 10;
+        System.out.println("Frog increase in 10: " + frog);
+        frog = frog / 3.5;
+        System.out.println("Frog divide by 3.5: " + frog);
+        frog = frog + 4;
+        System.out.println("Frog inc by 4: " + frog);
+
+        System.out.println("=====[ Welcome to Task 6 ]=====");
+
     }
 }
