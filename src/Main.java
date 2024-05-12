@@ -7,6 +7,11 @@ public class Main {
         System.out.println("Varable dog: " + dog);
         System.out.println("Varable cat: " + cat);
         System.out.println("Varable paper: " + paper);
-
+        dog = dog + 4;
+        cat = cat + 4;
+        paper = paper + 4;
+        System.out.println("Varable dog: " + dog);
+        System.out.println("Varable cat: " + cat);
+        System.out.println("Varable paper: " + paper);
     }
 }
