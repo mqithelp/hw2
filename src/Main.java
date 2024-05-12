@@ -50,6 +50,10 @@ public class Main {
         System.out.println("Разница в весе двух бойцов : " + defferenceWeight);
 
         System.out.println("=====[ Welcome to Task 7 ]=====");
+        var remDiv = twoBoxerWeight % oneBoxerWeight;
+        System.out.println("Остаток от деления: " + remDiv);
+
+        System.out.println("=====[ Welcome to Task 8 ]=====");
 
     }
 }
