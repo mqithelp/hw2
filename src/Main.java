@@ -62,6 +62,17 @@ public class Main {
             int totalBrownPaint = totalClass * classBrownPaint;
             System.out.println("В школе, где " + totalClass + " классов, нужно " + totalWhitePaint + " банок белой краски и " + totalBrownPaint + " банок коричневой краски");
         }
+        System.out.println("==[ Task 6 ]==");
+        {
+            int bananasWeight = 5 * 80;
+            int milkWeight = 2 * 105;
+            int icecreamWeight = 2 * 100;
+            int eggWeight = 4 * 70;
+            int totalWeightGR = bananasWeight + milkWeight + icecreamWeight + eggWeight;
+            float totalWeightKG = totalWeightGR / 1000f;
+            System.out.println("Готовый Спортзавтрак получился "+totalWeightGR+" грамм или "+totalWeightKG+" кг.");
+
+        }
 
     }
 
