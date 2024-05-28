@@ -1,7 +1,6 @@
 public class Main {
     public static void main(String[] args) {
         System.out.println("----------[ My Home Work - 2. Variables. Lesson 2. ]----------");
-//Объявите переменные типа int, byte, short, long, float, double.
         System.out.println("==[ Task 1 ]==");
         {
             int myInt = 0;
@@ -26,7 +25,6 @@ public class Main {
             short myShort2 = -159;
             short myShort3 = 27897;
             byte myByte = 67;
-
         }
         System.out.println("==[ Task 3 ]==");
         {
@@ -71,7 +69,6 @@ public class Main {
             int totalWeightGR = bananasWeight + milkWeight + icecreamWeight + eggWeight;
             float totalWeightKG = totalWeightGR / 1000f;
             System.out.println("Готовый Спортзавтрак получился " + totalWeightGR + " грамм или " + totalWeightKG + " кг.");
-
         }
         System.out.println("==[ Task 7 ]==");
         {
