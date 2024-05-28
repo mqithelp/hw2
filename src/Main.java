@@ -53,12 +53,16 @@ public class Main {
             System.out.println("За один месяц (" + MouthMay + " минут) машина произвела " + MouthMay * perfByMinutes + " штук бутылок");
         }
         System.out.println("==[ Task 5 ]==");
-/*
-
- */
         {
-
+            byte paintSum = 120;
+            byte classWhitePaint = 2;
+            byte classBrownPaint = 4;
+            int totalClass = paintSum / (classWhitePaint + classBrownPaint);
+            int totalWhitePaint = totalClass * classWhitePaint;
+            int totalBrownPaint = totalClass * classBrownPaint;
+            System.out.println("В школе, где " + totalClass + " классов, нужно " + totalWhitePaint + " банок белой краски и " + totalBrownPaint + " банок коричневой краски");
         }
+
     }
 
 }
