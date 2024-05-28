@@ -37,5 +37,28 @@ public class Main {
             float perStudentPaper = (float) paperCount / (studentLP + studentAS + studentEA);
             System.out.println("На каждого ученика рассчитано " + perStudentPaper + " листов бумаги");
         }
+        System.out.println("==[ Task 4 ]==");
+        {
+            byte performanceBottleMachine = 16;
+            byte timePerformance = 2;
+            float perfByMinutes = (float) performanceBottleMachine / timePerformance;
+            int minutes20 = 20;
+            int dayMinutes = 24 * 60;
+            int threeDayMinutes = dayMinutes * 3;
+            int MouthMay = dayMinutes * 31;
+            System.out.println("За 1 минуту машина производит " + perfByMinutes + " штук бутылок");
+            System.out.println("За " + minutes20 + " минут машина произвела " + minutes20 * perfByMinutes + " штук бутылок");
+            System.out.println("За сутки (" + dayMinutes + " минут) машина произвела " + dayMinutes * perfByMinutes + " штук бутылок");
+            System.out.println("За 3 дня (" + threeDayMinutes + " минут) машина произвела " + threeDayMinutes * perfByMinutes + " штук бутылок");
+            System.out.println("За один месяц (" + MouthMay + " минут) машина произвела " + MouthMay * perfByMinutes + " штук бутылок");
+        }
+        System.out.println("==[ Task 5 ]==");
+/*
+
+ */
+        {
+
+        }
     }
+
 }
