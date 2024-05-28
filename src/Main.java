@@ -86,7 +86,13 @@ public class Main {
             System.out.println("При потере веса в день 500 гр. Понадобится " + dayExtremal + " дней для сброса 7 кг. веса.");
             System.out.println("При средней потере веса в день " + avgLostWeight + " гр. Понадобится " + avgDay + " дней для сброса 7 кг. веса.");
         }
+        System.out.println("==[ Task 8 ]==");
+        /*
 
+         */
+        {
+
+        }
     }
 
 }
