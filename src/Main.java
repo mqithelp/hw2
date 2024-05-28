@@ -42,8 +42,8 @@ public class Main {
             byte performanceBottleMachine = 16;
             byte timePerformance = 2;
             float perfByMinutes = (float) performanceBottleMachine / timePerformance;
-            int minutes20 = 20;
-            int dayMinutes = 24 * 60;
+            short minutes20 = 20;
+            short dayMinutes = 24 * 60;
             int threeDayMinutes = dayMinutes * 3;
             int MouthMay = dayMinutes * 31;
             System.out.println("За 1 минуту машина производит " + perfByMinutes + " штук бутылок");
@@ -64,14 +64,27 @@ public class Main {
         }
         System.out.println("==[ Task 6 ]==");
         {
-            int bananasWeight = 5 * 80;
-            int milkWeight = 2 * 105;
-            int icecreamWeight = 2 * 100;
-            int eggWeight = 4 * 70;
+            short bananasWeight = 5 * 80;
+            short milkWeight = 2 * 105;
+            short icecreamWeight = 2 * 100;
+            short eggWeight = 4 * 70;
             int totalWeightGR = bananasWeight + milkWeight + icecreamWeight + eggWeight;
             float totalWeightKG = totalWeightGR / 1000f;
-            System.out.println("Готовый Спортзавтрак получился "+totalWeightGR+" грамм или "+totalWeightKG+" кг.");
+            System.out.println("Готовый Спортзавтрак получился " + totalWeightGR + " грамм или " + totalWeightKG + " кг.");
 
+        }
+        System.out.println("==[ Task 7 ]==");
+        {
+            short totalWeight = 7 * 1000;
+            float lostWeight250 = 250f;
+            float lostWeight500 = 500f;
+            float avgLostWeight = (lostWeight250 + lostWeight500) / 2;
+            float dayNormal = totalWeight / lostWeight250;
+            float dayExtremal = totalWeight / lostWeight500;
+            float avgDay = totalWeight / avgLostWeight;
+            System.out.println("При потере веса в день 250 гр. Понадобится " + dayNormal + " дней для сброса 7 кг. веса.");
+            System.out.println("При потере веса в день 500 гр. Понадобится " + dayExtremal + " дней для сброса 7 кг. веса.");
+            System.out.println("При средней потере веса в день " + avgLostWeight + " гр. Понадобится " + avgDay + " дней для сброса 7 кг. веса.");
         }
 
     }
