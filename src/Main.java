@@ -87,11 +87,23 @@ public class Main {
             System.out.println("При средней потере веса в день " + avgLostWeight + " гр. Понадобится " + avgDay + " дней для сброса 7 кг. веса.");
         }
         System.out.println("==[ Task 8 ]==");
-        /*
-
-         */
         {
-
+            float salaryMasha = 67_760f;
+            float salaryDenis = 83_690f;
+            float salaryKristina = 76_230f;
+            float salaryIndex = 0.1f;
+            float incomeMasha = salaryMasha * 12;
+            float incomeDenis = salaryDenis * 12;
+            float incomeKristina = salaryKristina * 12;
+            salaryMasha = salaryMasha * (1 + salaryIndex);
+            salaryDenis = salaryDenis * (1 + salaryIndex);
+            salaryKristina = salaryKristina * (1 + salaryIndex);
+            System.out.println("Маша теперь получает " + salaryMasha + " рублей. Годовой доход вырос на "
+                    + (salaryMasha * 12 - incomeMasha) + " рублей");
+            System.out.println("Денис теперь получает " + salaryDenis + " рублей. Годовой доход вырос на "
+                    + (salaryDenis * 12 - incomeDenis) + " рублей");
+            System.out.println("Кристина теперь получает " + salaryKristina + " рублей. Годовой доход вырос на "
+                    + (salaryKristina * 12 - incomeKristina) + " рублей");
         }
     }
 
