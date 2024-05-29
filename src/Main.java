@@ -10,7 +10,7 @@ public class Main {
             float myFloat = 0;
             double myDouble = 0;
             System.out.println("Значение переменной myInt с типом int равно " + myInt);
-            System.out.println("Значение переменной myByte с типом int равно " + myByte);
+            System.out.println("Значение переменной myByte с типом byte равно " + myByte);
             System.out.println("Значение переменной myShort с типом int равно " + myShort);
             System.out.println("Значение переменной myLong с типом int равно " + myLong);
             System.out.println("Значение переменной myFloat с типом int равно " + myFloat);
